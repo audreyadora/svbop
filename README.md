@@ -1,40 +1,35 @@
-Early development - UI library for timeline-based components. Written in Sveltekit + Typescript.
+# SVQuence.UI
 
-# create-svelte
+SVQuence.UI is a comprehensive Svelte library designed for creating rich, interactive automation UIs for music, media editing applications, and internal automation tools. It provides a suite of flexible components that let you build a customizable timeline-based interface, including an editable grid for sequencer applications, a timeline player, drag-and-drop timeline sections, and a powerful node editor.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Components
 
-## Creating a project
+### 1. AutomationTrack.svelte
 
-If you're seeing this, you've probably already done this step. Congrats!
+This component lets you edit a line graph of points across a timeline. It maps to a variable, allowing you to automate changes in that variable across a given timespan. It's perfect for creating volume or velocity curves in MIDI files.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+### 2. Editable Grid
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+Coming soon, this component will provide a grid of editable rectangles, suitable for piano roll or other sequencer applications.
 
-## Developing
+### 3. Timeline Player
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Coming soon, this component will provide a timeline player complete with ticks along the axis and custom timeline cursors.
 
-```bash
-npm run dev
+### 4. Timeline Drag and Drop Section
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+Coming soon, this component will provide drag-and-drop timeline sections with slicing and other timeline editing functions.
 
-## Building
+### 5. Node Editor
 
-To create a production version of your app:
+Coming soon, this powerful tool will allow users to connect predefined nodes and trigger them at points along the timeline. It will also support custom code blocks for user-defined nodes and nodes that visualize output or play audio.
 
-```bash
-npm run build
-```
+All components are designed to work together seamlessly, with a core layering engine that coordinates SVG elements across components.
 
-You can preview the production build with `npm run preview`.
+## Installation
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+_Coming soon..._
+
+## Usage
+
+_Coming soon..._
