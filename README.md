@@ -4,6 +4,8 @@ SVQuence.UI is a comprehensive Svelte library designed for creating rich, intera
 
 ## Components
 
+Still in early development stages, but this is the intended direction 🙂 more to come!
+
 ### 1. AutomationTrack.svelte
 
 This component lets you edit a line graph of points across a timeline. It maps to a variable, allowing you to automate changes in that variable across a given timespan. It's perfect for creating volume or velocity curves in MIDI files.
