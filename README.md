@@ -1,6 +1,6 @@
 # SVQuence.UI
 
-SVQuence.UI is a comprehensive Svelte library designed for creating rich, interactive automation UIs for music, media editing applications, and internal automation tools. It provides a suite of flexible components that let you build a customizable timeline-based interface, including an editable grid for sequencer applications, a timeline player, drag-and-drop timeline sections, and a powerful node editor.
+SVQuence.UI is a comprehensive? Svelte library designed for creating rich, interactive automation UIs for music, media editing applications, automation tools or other applications doing timey stuff. It provides a suite of flexible components that let you build a customizable timeline-based interface, including an editable grid for sequencer applications, a timeline player, drag-and-drop timeline sections, and a powerful node editor.
 
 ## Components
 
@@ -8,11 +8,17 @@ Still in early development stages, but this is the intended direction 🙂 more 
 
 ### 1. AutomationTrack.svelte
 
-This component lets you edit a line graph of points across a timeline. It maps to a variable, allowing you to automate changes in that variable across a given timespan. It's perfect for creating volume or velocity curves in MIDI files.
+This component lets you edit a line graph of points across a timeline. It maps to a variable, allowing you to automate changes in that variable across a given timespan.
 
-### 2. Editable Grid
+The points snap to subdivisions of the y-axis, with a keypress (default: Shift) that enters  focused mode on the selected point, and allows one to select any value in the y range.  
 
-Coming soon, this component will provide a grid of editable rectangles, suitable for piano roll or other sequencer applications.
+This mode also can display a tooltip with the point's value as well as implementing your own instead. A checkerboard or striped background can be displayed, with the 2 color selectors capable of recieving css tags such as theme colors from Skeleton and Tailwind or rgb and hex values.  
+
+It's perfect for creating volume or velocity curves in MIDI files.
+
+### 2. Editable Grid/Sequencer
+
+Coming soon, this component will provide a grid of editable tiles, suitable for piano roll or other sequencer applications such as color coded blocks that trigger other functions/actions/components - get creative with it! 
 
 ### 3. Timeline Player
 
