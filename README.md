@@ -1,6 +1,6 @@
-# 🎵 svquence.ui
+# 🎵 SVQuence.UI
 
-svquence.ui is a comprehensive? Svelte library designed for creating rich, interactive automation UIs for music 🎶, media editing applications 🎬, automation tools 🛠️ or other applications doing timey stuff ⏱️. It provides a suite of flexible components that let you build a customizable timeline-based interface, including an editable grid for sequencer applications, a timeline player 📟, drag-and-drop timeline sections, and a powerful node editor 💡. 
+SVQuence.UI is a comprehensive? Svelte library designed for creating rich, interactive automation UIs for music 🎶, media editing applications 🎬, automation tools 🛠️ or other applications doing timey stuff ⏱️. It provides a suite of flexible components that let you build a customizable timeline-based interface, including an editable grid for sequencer applications, a timeline player 📟, drag-and-drop timeline sections, and a powerful node editor 💡. 
 
 ## 🧩 Components
 
