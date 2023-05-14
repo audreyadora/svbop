@@ -6,7 +6,7 @@ SVQuence.UI is a comprehensive? Fully Typed SvelteKit library designed for creat
 
 Still in early development stages 🚧, but this is the intended direction 🙂 more to come!
 
-### 1. 📈 AutomationTrack.svelte
+### 1. 📈 Automation Track
 
 This component lets you edit a line graph of points across a timeline. It maps to a variable, allowing you to automate changes in that variable across a given timespan ⌛.
 
